@@ -30,5 +30,8 @@ resource "azurerm_storage_blob" "blob" {
     storage_container_name = "$web"
     type = "Block"
     content_type = "text/html"
-    source_content = "<h1> Finally, my first website deployed </h1> <h2> Charan B S </h2>"
+    source_content = "<h1> Finally, my first website deployed using terraform</h1> <h2> Charan B S </h2>"
 }
+
+#url
+#https://terraformyoyocbs.z13.web.core.windows.net/
