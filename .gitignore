@@ -1,0 +1,13 @@
+# Terraform-related files
+.terraform/                # Terraform provider plugins & dependencies (can be re-downloaded)
+.terraform.lock.hcl        # Terraform dependency lock file (auto-generated)
+
+# Terraform state files (store sensitive infrastructure data)
+terraform.tfstate          
+terraform.tfstate.backup   
+
+# Crash logs
+crash.log
+
+# Local execution plans
+*.tfplan
